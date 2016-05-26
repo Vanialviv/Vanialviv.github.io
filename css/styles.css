@@ -1,0 +1,112 @@
+#logo{
+    margin-top: -45px;
+}
+.navbar{
+    background-color: rgb(248, 248, 248);
+  }
+.navbar-nav li:hover{
+    background-color: black;
+}
+.movieblock{
+    margin-top: 50px;
+}
+.nav-tabs{
+  margin-top: 100px;
+  
+}
+.modal-btn, .thumbnail h4, .well{
+    text-align: center;
+}
+
+.hiden{
+    display: none;    
+}
+.blogpost:hover .hiden{
+    display: block;
+   
+}
+.blogpost:hover{
+    padding:5px;
+    cursor: pointer;
+    }
+.well{
+    margin-bottom: auto;
+}
+.fa-star{
+    color: gainsboro;
+}
+.fa-star:hover{
+    color: gold;
+}
+
+.sidebar-title{
+padding: 1px 5px;
+    background-color: darkred;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 18px;
+    margin: 20px 0px;
+    
+}
+
+.panel-heading{
+    background-color: black;
+}
+
+
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: -35px;
+    float: right;
+    line-height: 22px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    
+}
+
+    .search input {
+        position: absolute;
+        width: 0px;
+        float: Left;
+        margin-left: 40px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        height: 30px;
+        line-height: 18px;
+        padding: 0 2px 0 2px;
+        border-radius:1px;
+        top: 0px;
+    }
+
+        .search:hover input, .search input:focus {
+            width: 200px;
+            margin-right: 0px;
+        }
+
+.searchbutton {
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;}
+
+.footer{
+    background-color: aliceblue;
+    padding: 10px 0px;
+    
+}
+
+    
