@@ -19,18 +19,36 @@
 }
 
 .hiden{
-    display: none;    
-}
-.blogpost:hover .hiden{
-    display: block;
+    display: none; 
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px; 
    
+    
 }
+
 .blogpost:hover{
-    padding:5px;
+     margin: 0px -15px;
     cursor: pointer;
-    }
+    
+}
+.blogpost:hover .blogpost {
+    position: relative;
+       
+}
+
+.thumbnail:hover .hiden{
+    display: block;
+    z-index: 10;
+    border-top: none;
+    position: absolute;
+    left: 0px;
+         }
+
 .well{
-    margin-bottom: auto;
+    margin-bottom: auto;   
 }
 .fa-star{
     color: gainsboro;
