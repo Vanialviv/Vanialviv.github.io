@@ -1,0 +1,84 @@
+body{
+    background-color: #f3f2ed;
+}
+.header{
+    background-color: #343538;
+    height: 100px;
+}
+h1{
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+p{
+    color: #9a9a9b;
+    }
+a{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    
+}
+.blog-section{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+#imageblock{
+    height: 450px;
+    }
+h2{
+    color:#fff;
+}
+h3{
+    color: #343538;
+    margin-bottom: 20px;
+}
+#btn-Details{
+    background-color:#343538;
+    padding: 5px 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+ul, .col-sm-6{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+span:hover, .blog-section h3 a{
+    color: #626262;
+}
+#wrapper {
+   text-align: center; 
+    margin-bottom: 10px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */}
+#wrapper:hover{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: none ; /* IE6-9 */
+    zoom:1; /* needed to trigger "hasLayout" in IE if no width or height is set */
+    -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    }
+.social-media{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;    
+}
+.social-media span{
+    margin: 0px 5px;
+}
+* {
+    font-family: Myriad Pro;
+}
