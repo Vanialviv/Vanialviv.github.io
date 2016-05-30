@@ -51,7 +51,7 @@ p1{
 }
 .navigation ul li{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 3%;
     text-align: left;
     
 }
@@ -66,6 +66,9 @@ p1{
 .navigation a:hover{
     text-decoration: none;
     color:#999999;
+}
+.firstnews{
+    margin-bottom: 30px;
 }
 .secondarynews{
     margin-top: -23px;
