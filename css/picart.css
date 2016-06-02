@@ -19,9 +19,9 @@ h1{
     background-color: #9a9a9b
 }
 .carousel-indicators li,.carousel-indicators .active{
-    width: 15px;
-    height: 15px;
-    margin-left: 3px;
+    width: 14px;
+    height: 14px;
+    margin-left: 2px;
 }
 p{
     color: #9a9a9b;
