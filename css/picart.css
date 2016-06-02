@@ -18,6 +18,11 @@ h1{
 #carousel .carousel-indicators .active{
     background-color: #9a9a9b
 }
+.carousel-indicators li,.carousel-indicators .active{
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
 p{
     color: #9a9a9b;
     }
