@@ -33,7 +33,7 @@
       </div>
       
       <div class="container-fluid">
-      <div class="col-sm-8 col-sm-offset-2" id="imageblock" style="background-image: url(images/NYC-Andrew-Mace-00.png);">
+      <div class="col-sm-8 col-sm-offset-2" id="imageblock" style="background-image: url(images/NYC-Andrew-Mace-00.png);background-repeat:no-repeat">
           <div style="display:block;height:200px;width:200px">
               <h2>"<i>Simply edit</i> your photos and send them to people who matter."</h2><hr>
           </div>
@@ -52,8 +52,51 @@
            </div>
       </div>
       
-       <div class="container-fluid">
-           <div class="blog-section  col-sm-8 col-sm-offset-2">
+      <div class="container-fluid">
+      <div class="blog-section visible-xs">
+          <div id="carousel" class="carousel slide">
+        <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+            <ul>
+                   <li><span class="fa fa-pencil-square-o fa-4x"></span></li>
+                   <li><h3>Editable</h3></li>
+                   <li><p>Lorem ipsum dolor sit amet adipisce.</p></li>
+                   </ul>
+            </div>
+            <div class="item">
+            <ul>
+                   <li><span class="fa fa-cog fa-4x"></span></li>
+                   <li><h3>Versatile</h3></li>
+                   <li><p>Lorem ipsum dolor sit amet adipisce.</p></li>
+                   </ul>
+            </div>
+            <div class="item">
+            <ul>
+                   <li><span class="fa fa-desktop fa-4x"></span></li>
+                   <li><h3>Professional</h3></li>
+                   <li><p>Lorem ipsum dolor sit amet adipisce.</p></li>
+                   </ul>
+            </div>
+            </div>
+            
+            <a href="#carousel" class="left carousel-control" data-slide="prev">
+            <span class="fa fa-caret-left fa-lg" aria-hidden="true"></span> </a>
+            <a href="#carousel" class="right carousel-control" data-slide="next">
+            <span class="fa fa-caret-right fa-lg" ></span></a>
+        </div>
+          
+          
+          </div>
+      </div> 
+      
+      
+      <div class="container-fluid">
+           <div class="blog-section  col-sm-8 col-sm-offset-2 hidden-xs">
                <div class="col-sm-4">
                <ul>
                    <li><span class="fa fa-pencil-square-o fa-4x"></span></li>
@@ -92,7 +135,7 @@
        <div class="container-fluid">
            <div class="blog-section  col-sm-8 col-sm-offset-2">
                <div class="col-sm-6">
-               <img src="http://placehold.it/300x300">
+               <img src="http://placehold.it/300x300" width="100%" >
                </div>
                <div class="col-sm-6">
               <h3>Title Goes Here</h3>
