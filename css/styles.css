@@ -6,6 +6,9 @@ body{
     background-color: #41403a;
         
 }
+.header p{
+    color:#fff;
+}
 
 h1{
     font-size: 6vw;
