@@ -2,7 +2,7 @@ body{
     background-color: #f3f2ed;
 }
 .container-fluid{
-    overflow:hidden;
+    height:auto;
 }
 .header{
     background-color: #41403a;
