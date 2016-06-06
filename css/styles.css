@@ -6,6 +6,9 @@ body{
     background-color: #41403a;
         
 }
+img{
+    border: 2px solid gray;
+}
 h1{
     font-size: 6vw;
     font-family: Georgia;
