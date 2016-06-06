@@ -1,6 +1,8 @@
 body{
   }
-
+.container-fluid{
+  overflow:hidden;
+}
 .header{
     background-color:#fff;
 }
