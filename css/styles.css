@@ -1,11 +1,12 @@
 body{
     background-color: #f3f2ed;
 }
+.container-fluid{
+    overflow:hidden;
+}
 .header{
     background-color: #41403a;
-    overflow:hidden;
-        
-}
+    }
 .header p{
     color:#fff;
 }
