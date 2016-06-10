@@ -1,0 +1,165 @@
+body{
+    background-image: url(workimages/background.jpg);
+    background-size: 1800px 1450px;
+    width: 100%;    
+}
+.container-fluid{
+    overflow: hidden;
+}
+h1{
+    color: #231f20;
+    font-size: 40px;
+    }
+h2{
+    color:#91ac4e;
+     font-weight: bold;
+    margin-top: 30px;
+}
+p, h2{
+    font-size: 18px;
+    font-family: Myriad Pro;    
+}
+
+.companyname ul{
+    margin: -20px;    
+}
+ul li{
+    list-style: none;
+}
+
+.navbar{
+    background: none;
+    border:none;
+    padding: 0px;
+    right: 10px;    
+    }
+
+#navbar{
+    padding: 0px;
+    max-width: 80vw;
+    overflow: hidden;
+}
+#navbar a{
+    color: #231f20;
+    font-size: 18px;
+    
+}
+#navbar a:hover{
+     color:#91ac4e;
+}
+#navbar ul{
+    padding-right: -10px;
+}
+#navbar a span{
+    font-size: 15px;
+    color:#81a33d;
+    margin-left: -20px;
+    bottom: 10px;
+    
+}
+#navbar a span:hover{
+       color:#b8c57d;
+   
+    }
+@media (min-width: 991px) {
+ .bodyblock{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 72vw;     
+}    
+    .firstblock{
+        margin-top: -60px;
+    }
+    .go-up i{
+    left:12vw;
+} 
+}
+@media (max-width: 760px) {
+ .navbar{
+  text-align: center;
+}
+.input-group, .navbar, .logo{
+        margin-top: 10px;
+    }
+    .input-group{
+        margin-top: 52px;
+    }
+    .logo{
+        right: 25px; 
+    }
+    
+}
+@media (min-width: 761px) {
+ .navbar #social {
+  float: right;
+}
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+    bottom: 85px;
+    left: 50px;
+}
+
+.input-group {
+    position:absolute;
+    bottom:120px;
+    right:45px;
+    width:190px;
+    }
+.logo{
+    margin-top: 77px;
+}
+    .navbar{
+        margin-top: -110px; 
+    }    
+}
+.search-query, .btn-search{
+    height: 24px;
+    background-color: #fff;
+    border: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.buttons{
+    margin-top:  38px;
+    margin-bottom: 38px;
+    text-align: center;
+}
+.bodyblock{
+    border-bottom: 1px solid black;
+}
+.lastblock{
+    border: none;
+}
+.paragraph1{
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+.contacts{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: -40px;
+}
+.footer1{
+      margin: 25px 0px;
+    
+}
+p2{
+    font-size: 12px;
+    font-family: Myriad Pro;
+    margin-top: 15pt;    
+}
+.go-up .fa-square{
+    color: #fff;
+}
+.go-up .fa-angle-up{
+    color:#9299a3;
+}
+
+* {
+    font-family: sans-serif;
+     font-size: 18px;
+}
