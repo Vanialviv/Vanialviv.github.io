@@ -1,0 +1,161 @@
+
+.navbar{
+    background-color: #fff;
+    border: none;
+}
+.navbar-toggle .icon-bar {
+  
+    background-color:black !important;
+}
+.navbar-toggle{
+    border: none;    
+    top:13px;
+}
+
+
+#navbar a{
+    padding: 5px;
+    margin-left: 10px;
+}
+#navbar a:hover{
+    color:black;
+    font-weight: bold; 
+    border: 1px solid black;
+    border-radius: 15px
+}
+h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+p{
+    font-size: 10px;
+    line-height: 10px;
+   text-transform: uppercase;
+}
+img{
+    text-align: center;
+}
+
+
+.white{
+    color:#fff;
+}
+.collapse{
+    margin-bottom: 10px;
+}
+
+.icons img:hover{
+    -webkit-filter: drop-shadow(0px 0px 20px lightblue);
+    filter:         drop-shadow(0px 0px 15px #222); 
+}
+#btn-Details{
+    background-color: Transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;    
+}
+.btn-paragraph{
+    width: 50px;
+    height: 20px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 991px){
+    .navbar{
+        right:40px;
+        top:30px;
+    }
+    .images img{
+    margin-right: 10px;
+}
+    .images{
+        margin-top: 100px;
+    }
+    .secondblock{
+        margin-top: 60px;
+    }
+    .studiopic{
+        margin-top: 90px;
+    }
+    .pravila{
+        margin-top: 150px;
+    }
+}
+.hideme{
+   opacity: 0;
+    transition: all 0.4s ease-out;
+}
+.hideme.fadein{
+    opacity: 1;
+}
+.imacInner{
+    background-color: red;
+}
+
+.order{
+    margin: 10px 0;
+}
+.images img{
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.collapse p{
+    margin-top: 10px;
+    color: grey;
+}
+@media (min-width: 768px){
+    .icons{
+    margin-top: 80px;
+        
+}
+    .pravila{
+        margin-top: 300px;
+       padding-left: 60px;
+    }
+    .contacts{
+        border-right: 1px solid #fff;
+    }
+    .title{
+        border-top: 3px solid lightgrey;
+    }
+    .order{
+        margin: 20px 0;
+        margin-bottom: 100px;
+    }
+    .footer{
+        margin-top: 160px;
+    }
+    #map {
+    height: 400px;
+    }
+    #logo{
+    position: relative;
+    left: 160px;   
+}
+    
+}
+@media (max-width: 767px){
+    .pravila{
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .secondblock h1, .title{        
+    text-align: center;}
+    #map {
+    height: 200px;}
+    #logo{
+    position: relative;
+    left: 120px;   
+}
+    .navbar-collapse{
+    width: 100px;
+}
+}
+
+* {
+    font-family: roboto;
+    
+}
